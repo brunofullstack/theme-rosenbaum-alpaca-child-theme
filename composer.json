@@ -1,20 +1,20 @@
 {
-                "name": "Crearepp/rosenbaum-alpaca",
-                "description": "Theme for Rosenbaum",
-                "require": {
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "Crearepp/rosenbaum-alpaca": "100.0.*",
-                    "magento/framework": "100.0.*"
-                },
-                "type": "magento2-theme",
-                "version": "100.0.1",
-                "license": [
-                    "OSL-3.0",
-                    "AFL-3.0"
-                ],
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ]
-                }
-            }
+    "name": "crearepp/theme-rosenbaum-alpaca-child-theme",
+    "description": "The for Rosenbaum based Alpaca",
+    "authors": [
+        {
+            "name": "Bruno Carvalho",
+            "email": "brunofullstack@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "snowdogthe/theme-frontend-alpaca": "2.10.0",
+        "crearepp/module-rosenbaum-alpaca-theme-frontools": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
