@@ -9,7 +9,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "snowdogthe/theme-frontend-alpaca": "2.10.0",
+        "snowdog/theme-frontend-alpaca": "2.10.0",
         "crearepp/module-rosenbaum-alpaca-theme-frontools": "dev-master"
     },
     "autoload": {
