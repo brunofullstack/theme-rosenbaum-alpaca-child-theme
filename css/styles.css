@@ -1,0 +1,9 @@
+/* // Component variables */
+@import 'vendor/snowdog/theme-frontend-alpaca/Snowdog_Components/components/Atoms/variables/variables';
+/* // @import '../Snowdog_Components/components/Atoms/variables/<child-theme>-variables'; */
+
+/* // Components */
+@import 'vendor/snowdog/theme-frontend-alpaca/Snowdog_Components/components/styles';
+
+/* // Theme styles */
+@import 'theme';
